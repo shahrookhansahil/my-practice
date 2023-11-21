@@ -1,0 +1,15 @@
+.ai-logo {
+  width: 150px;
+  height: 70px;
+  border-radius: 5%;
+  background-color: #fff;
+  overflow: hidden;
+  cursor: pointer;
+  margin-left: 0%;
+  transition: all 0.3s ease-in-out;
+}
+.avatar {
+  border-radius: 50%;
+  border: rgb(1, 1, 114) 5px solid;
+  box-shadow: #716d6d 0 0 0 3px;
+}
