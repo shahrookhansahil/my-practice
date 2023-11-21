@@ -1,6 +1,6 @@
 import React from "react";
 import "./myStyle.css";
-import sahil from "../../src/components/sahil.png";
+// import sahil from "../../src/components/sahil.png";
 
 const user = {
   name: "Sahil Mazari",
