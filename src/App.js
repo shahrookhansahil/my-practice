@@ -7,6 +7,8 @@ import Contact from "./components/Contact";
 import Conditional from "./components/Conditional";
 import ClassComp from "./components/classComp";
 import PropsinConstructor from "./components/PropsinConstructor";
+import Container from "./components/Container";
+import PackingList from "./components/PakingList";
 const App = () => {
   const name = "Sahil Mazari";
   return (
@@ -22,6 +24,9 @@ const App = () => {
       <Conditional />
       <ClassComp />
       <PropsinConstructor model="Hondna Bike" />
+
+      <Container />
+      <PackingList />
     </div>
   );
 };

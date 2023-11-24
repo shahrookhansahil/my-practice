@@ -1,6 +1,7 @@
 import React from "react";
 import "./myStyle.css";
 import AiFactLogo from "./AiFact-logo.png";
+
 const MyHeader = () => {
   return (
     <header>
