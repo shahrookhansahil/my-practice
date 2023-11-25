@@ -1,8 +1,19 @@
 function Item({ name, isPacked }) {
-  if (isPacked) {
-    return <li className="item">{name} ✔</li>;
-  }
-  return null;
+  //#     Logical AND operator (&&)
+  return (
+    <li className="item">
+      {name} {isPacked && "✔"}
+    </li>
+  );
+
+  //#Ternary Operator
+  // return <li className="item">{isPacked ? <del>{name + " ✔"}</del> : name}</li>;
+
+  //#  if /else
+  //   if (isPacked) {
+  //     return <li className="item">{name} ✔</li>;
+  //   }
+  //   return null;
 }
 
 export default function PackingList() {

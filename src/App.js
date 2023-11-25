@@ -9,6 +9,10 @@ import ClassComp from "./components/classComp";
 import PropsinConstructor from "./components/PropsinConstructor";
 import Container from "./components/Container";
 import PackingList from "./components/PakingList";
+import List from "./components/List";
+import TeaSet from "./components/TeaSet";
+import Toolbar from "./components/Toolbar";
+import Gallary from "./components/Hooks-Component/Gallary";
 const App = () => {
   const name = "Sahil Mazari";
   return (
@@ -27,6 +31,17 @@ const App = () => {
 
       <Container />
       <PackingList />
+      <List />
+      <TeaSet />
+
+      <Toolbar
+        onPlayMovie={() => alert("Playing!")}
+        onUploadImage={() => alert("Uploading!")}
+        onUpload={() => alert("Uploading Just!")}
+      />
+
+      <h1>React Hooks</h1>
+      <Gallary />
     </div>
   );
 };
