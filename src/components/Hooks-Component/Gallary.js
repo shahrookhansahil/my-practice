@@ -1,6 +1,14 @@
 import Counter from "./Counter";
 import Form from "./Form";
 import TrafficLight from "./TrafficLight";
+import InputList from "./InputList";
+import ListArray from "./ListArray";
+import ItemIncrment from "./ItemIncrment";
+import MyUseEffect from "./MyUseEffect";
+import Accordion from "./Accordion";
+import FancyBox from "./FancyBox";
+import MyContext from "./MyContext";
+import MyCountR from "./MyCountR";
 
 const sculptureList = [
   {
@@ -105,14 +113,15 @@ export default function Gallery() {
   return (
     <>
       <h1>Gallery</h1>
+
       <div className="gallery">
         {sculptureList.map((sculpture) => (
           <div className="sculpture" key={sculpture.name}>
             <img src={sculpture.url} alt={sculpture.alt} />
             <div className="sculpture-description">
               <h2>{sculpture.name}</h2>
-              {/* <h3>{sculpture.artist}</h3> */}
-              {/* <p>{sculpture.description}</p> */}
+              <h3>{sculpture.artist}</h3>
+              <p>{sculpture.description}</p>
             </div>
           </div>
         ))}
@@ -120,6 +129,14 @@ export default function Gallery() {
         <Counter />
         <Form />
         <TrafficLight />
+        <InputList />
+        <ListArray />
+        <ItemIncrment />
+        <MyUseEffect />
+        <Accordion />
+        <FancyBox />
+        <MyContext />
+        <MyCountR />
       </div>
     </>
   );

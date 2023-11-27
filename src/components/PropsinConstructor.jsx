@@ -4,7 +4,11 @@ class PropsinConstructor extends React.Component {
     super(props);
   }
   render() {
-    return <h2>I am a {this.props.model}!</h2>;
+    return (
+      <h2>
+        I am a <b style={{ color: "blue" }}>{this.props.model}</b>!
+      </h2>
+    );
   }
 }
 export default PropsinConstructor;

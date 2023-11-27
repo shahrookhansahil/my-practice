@@ -1,3 +1,42 @@
-.App {
-  margin-left: 10px;
+/* App.css */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  margin-bottom: 300px;
+}
+header {
+  z-index: 1000;
+  /* other styles */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+main {
+  margin-top: 90px; /* Add some margin/padding to ensure content starts below the header */
+  padding: 900px; /* You can also add padding to the main content area */
 }
