@@ -12,7 +12,6 @@ export default function Profile() {
   return (
     <>
       <h1>About Me</h1>
-      <h5>{user.name}</h5>
       <img
         className="avatar"
         src={user.imageUrl}
@@ -22,6 +21,14 @@ export default function Profile() {
           height: user.imageSize,
         }}
       />
+      <h2>{user.name}</h2>
+      <p>
+        Results-driven programming instructor experienced in teaching C++, Java,
+        Python, C#, HTML, CSS, and JavaScript. Proven success in delivering
+        engaging lessons and fostering collaborative learning environments.
+        Passionate about staying current with industry trends and dedicated to
+        providing up-to-date programming education.
+      </p>
     </>
   );
 }

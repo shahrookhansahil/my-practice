@@ -1,7 +1,7 @@
 import React from "react";
 
 function Conditional() {
-  const age = 26;
+  const age = 10;
   const baby = false;
   let text;
 
@@ -14,18 +14,14 @@ function Conditional() {
 
   //    Multiline JSX
 
-  const myList = (
-    <ul>
-      <h2>my list</h2>
-      <li>item 1</li>
-      <li>item 2</li>
-      <li>item 3</li>
-    </ul>
-  );
-
   return (
     <div>
       <h1>Conditional</h1>
+      <p>
+        Your components will often need to display different things depending on
+        different conditions. In React, you can conditionally render JSX using
+        JavaScript syntax like if statements, &&, and ? : operators.
+      </p>
       <ul>
         <li>Applesauce</li>
         {!baby && <li>Pizza</li>}
@@ -35,8 +31,6 @@ function Conditional() {
       </ul>
       {/* Ternary Operators */}
       <h1>{age > 18 ? text : text}</h1>
-
-      {myList}
     </div>
   );
 }
