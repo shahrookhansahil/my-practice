@@ -37,6 +37,6 @@ nav a:hover {
 }
 
 main {
-  margin-top: 90px; /* Add some margin/padding to ensure content starts below the header */
+  margin-top: 92px; /* Add some margin/padding to ensure content starts below the header */
   padding: 900px; /* You can also add padding to the main content area */
 }
